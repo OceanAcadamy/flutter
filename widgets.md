@@ -1,0 +1,20 @@
+MaterialApp()
+  => its the root for all material design widgets, as a property called home,
+Scaffold()
+  => it contains all he basic properties like appbar, body, etc,
+SafeArea() 
+  => puts our code inside the safest area to view in a display,
+Container()
+  => its just like div, as property like margin, padding, etc,
+Column()
+  => arranges widgets in single column, as a attribute like mainAxisAlignment and CrossAxisAlignment,
+Row()
+  => arranges widgets in single row, as a attribute like mainAxisAlignment and CrossAxisAlignment,
+Expanded() 
+  => its a child of either Row or Column or Flex and as a property called flex just like weight in android linearlayout,
+Image()
+  => it holds a image, expects a widget like
+    => AssetImage(),
+    => NetworkImage(),
+Image.asset(),
+Image.network(),
