@@ -20,4 +20,7 @@ Image.asset(),
 Image.network(),
 SizedBox()
   => creates a box using property height and width,
+FlatButton(),
+RaisedButton(),
+IconButton(),
 
