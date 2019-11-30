@@ -1,4 +1,4 @@
-# MaterialApp()
+MaterialApp()
   => its the root for all material design widgets, as a property called home,
 Scaffold()
   => it contains all he basic properties like appbar, body, etc,
@@ -18,4 +18,6 @@ Image()
     => NetworkImage(),
 Image.asset(),
 Image.network(),
+SizedBox()
+  => creates a box using property height and width,
 
