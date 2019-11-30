@@ -23,4 +23,10 @@ SizedBox()
 FlatButton(),
 RaisedButton(),
 IconButton(),
+Padding(),
+EdgeInsets
+  .all(double),
+  .symmetric(vertical: double,horizontal: double),
+  .LTRB(left: double,right: double,top: double,bottom: double),
+TextStyle(),
 
