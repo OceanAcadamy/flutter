@@ -31,4 +31,5 @@ EdgeInsets
 TextStyle(),
 ListTile()
   => refer documentation,
+Center(),
 
