@@ -38,4 +38,5 @@ Theme(),
 ThemeData(),
 TextTheme(),
 BoxDecorations(),
+GestureDetector(),
 
