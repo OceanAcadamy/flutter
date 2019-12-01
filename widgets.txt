@@ -34,4 +34,6 @@ ListTile()
 Center(),
 Icon(),
 Visibility(),
+ThemeData(),
+TextTheme(),
 
