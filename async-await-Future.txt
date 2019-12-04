@@ -1,7 +1,34 @@
 dart is a synchronous language.
+
 it always finishes code line by line, so if one method or a process takes much time to finish our UI lags or it crashes the app. 
+
 to oversome this we can make the procees or the method to run asynchronously by adding async keyword, which makes the method or the process run in the back ground,
-#example
+
+example:
+
 void functionName() async {
 //body of the function;
+}
+
+ok we made the function to run in background so the other process can be run at the same time without any problem
+but what if the function returns a value and the other process or depende on it
+for that we use await keyword to make the asynchronous (which is a background process) to wait before it retuns the value.
+
+
+example:
+
+void functionName() async {
+retun await http.get(url);
+}
+
+so if the function call of a asynchronous function has a return value then the function call also has to wait cause the retun value might be dependent for other process then we use await key word for the function call and we change the function return type to Future<data type>.
+
+example:
+
+void main(){
+final urlValue = await getUrl();
+}
+
+Future functionName() async {
+return await http.get(url);
 }
